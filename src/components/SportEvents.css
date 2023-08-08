@@ -1,0 +1,47 @@
+
+.eventForm{
+    border: 1px solid #c3cacc;
+    border-radius: 20px;
+    width: 450px;
+    height: 250px;
+    margin-left: 60px;
+    margin-top: 60px;
+    border-width: 5px;
+    font-size: 22px;
+    list-style-type: none;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+.ethValueInput {
+    border-radius: 20px;
+    height: 10%;
+    width: 40%;
+    text-align: right;
+    font-size: 25px;
+    padding-right:10px
+}
+  
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.teamName{
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.checkbox{
+    height: 7%;
+    width: 7%;
+}
+
+.walletData{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px;
+}
+

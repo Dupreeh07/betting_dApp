@@ -1,0 +1,71 @@
+.app-wrapper {
+  display: grid;
+  background: rgb(219,240,251);
+  background: linear-gradient(356deg, rgba(219,240,251,1) 34%, rgba(197,202,255,1) 87%);
+  background-attachment: fixed;
+  height: 100vw;
+  width: 100%;
+  grid-template-areas: 
+  "H H"
+  "B BE"
+  ;
+  grid-template-rows: 150px 1fr;
+  grid-template-columns: 6fr 6fr;
+  grid-gap: 10px;
+}
+
+.header {
+  line-height: 1;
+  white-space: pre-wrap;
+  grid-area: H;
+  background: rgb(104, 134, 252);
+  cursor: var(--linkCursor);
+  opacity: 0.9;
+  border-color: #000000;
+  border-width: 500px;
+  border-radius: 10px;
+}
+
+.header button {
+  font-weight: 600;
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  z-index: 30; 
+  background-color: #63a9cc;
+  color: #0f1a35;
+  cursor: var(--linkCursor);
+  border-radius: 10px;
+  padding: .9% 4%;
+  font-size: max(26px,.9vw);
+  transition: all .2s ease-out;
+}
+
+.bidderEvents button, .body button {
+  width: 250px;
+  margin-left: 27.5%;
+  height: 50px;
+  background-color: #63a9cc;
+  color: #0f1a35;
+  cursor: var(--linkCursor);
+  border-radius: 10px;
+  padding: .8% 12px;
+  font-size: max(23px,.9vw);
+  transition: all .2s ease-out;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bidderEvents button:hover, .body button:hover, .header button:hover {
+	background: #5d7674;
+	box-shadow: inset 0 0 0 1px #3a7999;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+

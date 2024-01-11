@@ -1,4 +1,5 @@
 Demonstration: https://www.youtube.com/watch?v=nVHWCf_GV-w&ab_channel=Dupreeh7
+
 Decentralized application for eSports betting. Requests are made with https://dota.haglund.dev/v1/matches , BettingApi contract and Chainlink goerli Oracles. Alchemy key is used for deploying contracts. Some functions are not available in frontend, so there is etherscan goerli verification for using this func like this:
 https://goerli.etherscan.io/address/0x90626A6de77407B38D2adb96fBd82A4016726fb1
 https://goerli.etherscan.io/address/0xbd6c31c975f632b7c8e6ddbd8b2d3164a14bbc29
